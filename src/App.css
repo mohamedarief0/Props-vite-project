@@ -1,0 +1,16 @@
+
+.cardN{
+  border: 1px solid whitesmoke;
+  width: 380px;
+  border-radius: 12px;
+  padding: 12px 24px;
+
+}
+.img{
+  width:380px;
+  border-radius: 12px;
+}
+.flex{
+  display: flex;
+  gap: 20px;
+}
