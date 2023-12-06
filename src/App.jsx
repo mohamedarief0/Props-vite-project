@@ -6,7 +6,7 @@ function App() {
   let foodItesms = [{
     name: "Spaghetti Bolognese",
     description: "Classic Italian pasta with rich meat sauce",
-    price: 12.99,
+    price:  12.99,
   },
   {
     name: "Chicken Caesar Salad",
@@ -35,7 +35,7 @@ function App() {
       {foodItesms.map(function (item) {
         return (
           <div >
-            <Card name={item.name} country={country} />
+            <Card name={item.name} desc={item.description} price={item.price} country={country} />
             {/* <Card name={item.name} country={country} /> */}
           </div>
         );

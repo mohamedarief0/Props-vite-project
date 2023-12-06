@@ -1,7 +1,8 @@
 
 .cardN{
-  border: 1px solid whitesmoke;
+  border: 1px solid rgb(155, 155, 155);
   width: 380px;
+  height: 420px;
   border-radius: 12px;
   padding: 12px 24px;
 
@@ -11,6 +12,21 @@
   border-radius: 12px;
 }
 .flex{
+
   display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
   gap: 20px;
+}
+
+.flex-f{
+  display: flex;
+}
+.btn{
+  background-color: black;
+  padding: 12px 24px;
+  margin: auto 10px;
+  border-radius: 12px;
+  border: none;
+  color: white;
 }
